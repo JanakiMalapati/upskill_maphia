@@ -1,0 +1,120 @@
+body{
+    padding: 20px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body h1{
+    width:100%;
+    font-size: 150%;
+    line-height: 1.5;
+}
+hr{
+    width: 100%;
+    margin-right: 22%;
+}
+.det{
+    width:60%;
+}
+.det p{
+    font-size: 170%;
+}
+.buttonstyle{
+    margin-left: 45%;
+    display: flex;
+    display: inline;
+    flex-direction: row;
+}
+.buttonstyle a{
+    border: none;
+    font-size: 180%;
+    background-color:rgba(240, 248, 255, 0);
+    width: 30%;
+    margin-left: 20%;
+    color: rgb(203, 2, 2);
+}
+a{
+    background-color:rgba(240, 248, 255, 0);
+    width: 30%;
+    color: rgb(203, 2, 2);
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.maindiv
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.d1
+{
+    margin-right: 8%;
+    width: 40%;
+}
+.d1 img
+{
+    border-radius: 30px;
+    margin-top: 25%;
+    width: 100%;
+}
+.det
+{
+    width: 70%;
+}
+.det h1{
+    text-align: center;
+    font-size: 40px;
+}
+button
+{
+    width: 15%;
+    height: 35px;
+    border-radius: 12px;
+    border-width: 0.5px;
+    background-color: aliceblue;
+    border-color: blue;
+}
+.but1:hover::after,.but2:hover::after,.but3:hover::after {
+    content: 'Watch';
+    position: absolute;
+    color:gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.but2:hover::after
+{
+    content: 'Connect';
+}
+.but3:hover::after
+{
+    content: 'Practice';
+}
+.but1:hover::after,.but2:hover::after,.but3:hover::after {
+    opacity: 1;
+}
+.maindiv
+{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:799px)
+{
+    .maindiv
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .d1
+    {
+        width: 90%;
+        padding-left: 5%;
+    }
+    .det{
+        width: 90%;
+        padding-left: 5%;
+    }
+}

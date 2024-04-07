@@ -1,0 +1,130 @@
+body{
+    padding: 5px;
+    padding-top: 0px;
+    line-height: 1.5;
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcomemessage{
+    color: #ccc;
+    width:100%;
+    font-size: 140%;
+    line-height: 1.5;
+}
+.welcome{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.welcomeimg{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+    width: 40%;
+}
+.courses{
+    display: flex;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+.pg{
+    width:30%;
+    color:black;
+    margin-left: 1%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.pg h2, .web h2, .career h2, .c h2{
+    text-align: center;
+    font-size: 160%;
+}
+.pg p, .web p,.career p{
+    font-size: 130%;
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+.pg button, .web button, .career button, .c button{
+    width:30%;
+    font-size: 160%;
+    height:60%;
+    background-color: none;
+    margin-bottom: 4%;
+    margin-right: 5%;
+    border: none;
+    color: rgb(189, 21, 6);
+    font-weight: 550;
+    background-color: white;
+}
+.web{
+    width:30%;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 4%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.career{
+    margin-left: 4%;
+    width:30%;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content h2 {
+    margin-top: 0;
+}
+
+.dropdown-content p {
+    margin-bottom: 5px;
+}
+
+.show {
+    display: block;
+}
+
+@media (max-width:799px)
+{
+    .courses
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .pg,.web,.career
+    {
+        margin: 0%;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
